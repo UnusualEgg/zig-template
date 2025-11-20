@@ -1,0 +1,7 @@
+{
+  "project_name": "zig cookiecutter",
+  "exe_name": "{{ cookiecutter.project_name.lower().replace(' ','-') }}",
+  "mod_name": "{{ cookiecutter.exe_name }}_mod",
+  "project_slug": "{{ cookiecutter.exe_name.lower().replace('-','_') }}",
+  "author": "Sky"
+}

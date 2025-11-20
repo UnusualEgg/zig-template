@@ -1,0 +1,13 @@
+.{
+    .name = .{{ cookiecutter.project_slug }},
+    .version = "0.0.0",
+    .fingerprint = 0x97601f83648f13fc, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
