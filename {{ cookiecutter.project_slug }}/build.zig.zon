@@ -1,7 +1,6 @@
 .{
     .name = .{{ cookiecutter.project_slug }},
     .version = "0.0.0",
-    .fingerprint = 0x43a53c018e624589, // Changing this has security and trust implications.
     .minimum_zig_version = "0.15.1",
     .dependencies = .{
     },
